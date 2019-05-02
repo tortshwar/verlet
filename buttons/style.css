@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  background: #000;
+}
+
+canvas {
+  width: 100vmin;
+  height: 100vmin;
+  display: block;
+  position: absolute;
+  top: 75vmin;
+  left: 0;
+  border-bottom: 0.15em solid #aaa;
+  background: #000;
+  z-index: 1;
+}
+
+
+#ground {
+  width: 100vmin;
+  height:10vmin;
+  position: absolute;
+  top: 173vmin;
+  background-color: #aaa;
+  z-index: 0;
+}
