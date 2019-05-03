@@ -2,7 +2,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
-const bg = '#f6f6f6';
+const bg = '#000';
 
 
 points = [],
@@ -14,10 +14,10 @@ points.push({
   y: 101,
   oldx: (window.screen.width/2)-10,
   oldy: 100,
-  r: 5,
+  r: 15,
   fill: '#f6f',
   stroke: '#000',
-  trail: 1,
+  trail: 0,
   hist: []
 });
 
