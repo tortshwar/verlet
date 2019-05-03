@@ -3,7 +3,6 @@ html, body{
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Dosis', sans-serif;
   line-height: 1;
-  background: #f6f6f6;
-  color: #666;
   text-align: center;
+  margin: 0;
 }
